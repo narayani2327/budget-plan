@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@500&display=swap');
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)),url("./bgmain.jpeg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    width: 98.7vw;
+    height: 95vh;
+}
+h1{
+    text-align: center;
+    text-decoration: underline wavy black 5px;
+    text-shadow: 2px 2px 4px white;
+}
+.mt-5,.mt-3{
+    font-family: 'Abril Fatface', cursive;
+}
+span, label,input[type=number],input[type=text],.badge-primary {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+    color: black;
+}
+.badge-primary{
+    background-color: rgb(98, 97, 97) !important;
+}
